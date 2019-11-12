@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c618efbd-5f3b-45b0-8564-876853bc5938" name="Default Changelist" comment="" />
+    <list default="true" id="c618efbd-5f3b-45b0-8564-876853bc5938" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lesson2/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/RouteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/ExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/ExchangeRateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/FinanceSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/FinanceSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/MoneyMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson3/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +27,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RsioKG2czRjjGRfhlEZG5A8WUu" />
   <component name="PropertiesComponent">
@@ -34,6 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson3" />
+      <recent name="lesson2" />
       <recent name="lesson1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -52,78 +70,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PointTest">
-    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Point" />
+  <component name="RunManager" selected="JUnit.ExchangeRateTest.setExchangeRate">
+    <configuration name="ExchangeRateTest.setExchangeRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TarkvaraArhitektuurJaDisain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.ExchangeRateTest" />
+      <option name="METHOD_NAME" value="setExchangeRate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinanceSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TarkvaraArhitektuurJaDisain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson1" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.PointTest" />
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.FinanceSystemTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest.centre_rotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TarkvaraArhitektuurJaDisain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson1" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.PointTest" />
-      <option name="METHOD_NAME" value="centre_rotate" />
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.changeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TarkvaraArhitektuurJaDisain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.MoneyTest" />
+      <option name="METHOD_NAME" value="changeAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest.getVectorTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.convertMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TarkvaraArhitektuurJaDisain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson1" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.PointTest" />
-      <option name="METHOD_NAME" value="getVectorTo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PointTest.rotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TarkvaraArhitektuurJaDisain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson1" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.PointTest" />
-      <option name="METHOD_NAME" value="rotate" />
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.MoneyTest" />
+      <option name="METHOD_NAME" value="convertMoney" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PointTest" />
-        <item itemvalue="JUnit.PointTest.rotate" />
-        <item itemvalue="Application.Point" />
-        <item itemvalue="JUnit.PointTest.centre_rotate" />
-        <item itemvalue="JUnit.PointTest.getVectorTo" />
+        <item itemvalue="JUnit.ExchangeRateTest.setExchangeRate" />
+        <item itemvalue="JUnit.FinanceSystemTest" />
+        <item itemvalue="JUnit.MoneyTest" />
+        <item itemvalue="JUnit.MoneyTest.convertMoney" />
+        <item itemvalue="JUnit.MoneyTest.changeAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -151,5 +171,18 @@
       <updated>1570462377570</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
